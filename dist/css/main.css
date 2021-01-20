@@ -1,0 +1,269 @@
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer; }
+  .btn:hover {
+    opacity: 0.9;
+    transition: opacity all 2s ease-in-out; }
+
+.text-center {
+  text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.py-1 {
+  margin: 1rem 0; }
+
+.py-2 {
+  margin: 2rem 0; }
+
+.py-3 {
+  margin: 3rem 0; }
+
+.py-4 {
+  margin: 4rem 0; }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+.side-line {
+  height: 2px;
+  width: 3rem;
+  background: #f4f4f4;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
+.bg-light {
+  background: #f4f4f4;
+  border-left: solid #333; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.height {
+  height: 202px; }
+
+/* .btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  background: $main-color;
+  color: $secondary-color;
+  font-size: 0.95rem; 
+  
+} */
+.callback-form {
+  width: 100%;
+  padding: 20px 0; }
+  .callback-form label {
+    display: block;
+    margin-bottom: 5px; }
+  .callback-form .form-control {
+    margin-bottom: 15px; }
+  .callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #333 1px solid; }
+  .callback-form input:focus {
+    outline-color: #28a745; }
+  .callback-form .btn {
+    padding: 12px 0;
+    margin-top: 20px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.6;
+  background: #fff;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #f4f4f4; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-family: 'Teko', sans-serif; }
+
+img {
+  width: 100%; }
+
+#header-iceland {
+  background: url(/dist/images//tanya-grypachevskaya-TtN03jUTA70-unsplash.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff; }
+
+#header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+  margin-top: 100px;
+  height: 50vh;
+  padding: 0;
+  width: 500px; }
+  #header-content p:first-child {
+    font-size: 1.4rem;
+    padding-right: 1rem; }
+  #header-content h1 {
+    font-size: 8rem;
+    /* padding: 0; */ }
+  #header-content:last-child {
+    font-size: 1rem; }
+
+#main-nav {
+  display: grid;
+  text-align: right;
+  padding: 1rem 0.5rem; }
+  #main-nav ul a {
+    /* border-bottom: solid 2px $secondary-color ; */ }
+    #main-nav ul a:hover {
+      color: #a1a1a1;
+      /* border-bottom: solid $secondary-color 2px; */
+      /* border-left: #fff solid 4rem;
+        padding-left: 0.4rem;
+        border-radius: 7%;
+        line-height: 2px; */
+      margin-left: 5px;
+      margin-top: -5px;
+      padding: 0 25px 0 25px;
+      border-left: 2px solid #e2e0e0; }
+
+#section-1 .info-nature {
+  display: grid;
+  grid-template-areas: 'img info info';
+  grid-gap: 2rem; }
+  #section-1 .info-nature .info {
+    grid-area: info;
+    width: 90%;
+    padding: 0.7rem 0;
+    margin-left: 2rem; }
+    #section-1 .info-nature .info h1 {
+      font-size: 3.7rem; }
+    #section-1 .info-nature .info p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding: 1rem; }
+  #section-1 .info-nature .cadre {
+    padding: 1rem;
+    padding-bottom: 0.8rem;
+    background: #e8dfdf;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+
+#section-2 .info-history {
+  display: grid;
+  grid-template-areas: 'info info img';
+  grid-gap: 2rem; }
+  #section-2 .info-history .info {
+    grid-area: info;
+    width: 90%;
+    padding: 0.7rem 0;
+    margin-left: 2rem; }
+    #section-2 .info-history .info h1 {
+      font-size: 3.7rem;
+      color: #fff; }
+    #section-2 .info-history .info p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      background: #636060;
+      padding: 1rem;
+      border-right: #fff solid; }
+  #section-2 .info-history .cadre {
+    padding: 1rem;
+    padding-bottom: 0.8rem;
+    background: #625f5f;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    #section-2 .info-history .cadre img {
+      height: 427px;
+      width: 280px; }
+
+#section-3 .info-mountains {
+  display: grid;
+  grid-template-areas: 'img info info';
+  grid-gap: 2rem; }
+  #section-3 .info-mountains .info {
+    grid-area: info;
+    width: 9  0%;
+    padding: 0.7rem 0;
+    margin-left: 2rem; }
+    #section-3 .info-mountains .info h1 {
+      font-size: 3.7rem; }
+    #section-3 .info-mountains .info p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding: 1rem; }
+  #section-3 .info-mountains .cadre {
+    padding: 1rem;
+    padding-bottom: 0.8rem;
+    background: #e8dfdf;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%; }
+    #section-3 .info-mountains .cadre img {
+      height: 100%; }
+
+#section-5 .column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 4px; }
+  #section-5 .column .row {
+    grid: 25%;
+    padding: 0 4px; }
+    #section-5 .column .row img:hover {
+      opacity: 0.9; }
+
+#section-4 .info-stay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  #section-4 .info-stay .info {
+    flex: 1;
+    padding: 0 1rem; }
+    #section-4 .info-stay .info h1, #section-4 .info-stay .info h2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 1.2rem; }
+    #section-4 .info-stay .info a {
+      color: #000;
+      font-weight: 1000;
+      border-bottom: 1px solid; }
+      #section-4 .info-stay .info a:hover {
+        opacity: 0.9; }
+
+footer .container {
+  padding: 13px 8px; }

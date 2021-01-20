@@ -1,0 +1,16 @@
+//variabels
+$website-width:1280px;
+$main-color:#333;
+$secondary-color:#f4f4f4;
+$hover-color:#a1a1a1;
+$bg-img:url(/dist/images//tanya-grypachevskaya-TtN03jUTA70-unsplash.jpg) no-repeat center center/cover;
+
+//set text color
+@function set-text-color($color) {
+  @if(lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+
+}

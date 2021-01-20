@@ -1,0 +1,134 @@
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s ;
+  border: none;
+  background: $main-color;
+  color: #fff;
+  cursor: pointer; 
+  &:hover {
+    opacity: 0.9;
+    transition: opacity all 2s ease-in-out;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+// padding
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+
+
+// margin
+.py {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.side-line {
+  height: 2px;
+  width: 3rem;
+  background: $secondary-color;
+  display: block;
+  margin: 0 auto 1rem auto;  
+}
+
+//background 
+
+.bg{
+  &-light {
+    background: $secondary-color;
+    border-left: solid #333;
+  }
+  &-dark {
+    background: #333;
+    color: #fff;
+    
+  }
+}
+
+//widht and height 
+.height {
+  
+  height: 202px;
+
+}
+//btn 
+ /* .btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  background: $main-color;
+  color: $secondary-color;
+  font-size: 0.95rem; 
+  
+} */
+//form contact 
+.callback-form {
+  width: 100%;
+  padding: 20px 0;
+  label {
+   display: block;
+   margin-bottom: 5px;
+  }
+  .form-control {
+     margin-bottom: 15px;
+  }
+  input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: $main-color 1px solid;
+  }
+  input:focus {
+   outline-color: #28a745;
+  }
+  .btn {
+    padding: 12px 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
