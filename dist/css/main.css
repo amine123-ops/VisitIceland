@@ -121,7 +121,7 @@ img {
   width: 100%; }
 
 #header-iceland {
-  background: url(/dist/images//tanya-grypachevskaya-TtN03jUTA70-unsplash.jpg) no-repeat center center/cover;
+  background: url(/dist/images/tanya-grypachevskaya-TtN03jUTA70-unsplash.jpg) no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
 
@@ -150,7 +150,7 @@ img {
   #main-nav ul a {
     /* border-bottom: solid 2px $secondary-color ; */ }
     #main-nav ul a:hover {
-      color: #a1a1a1;
+      /* color: $hover-color; */
       /* border-bottom: solid $secondary-color 2px; */
       /* border-left: #fff solid 4rem;
         padding-left: 0.4rem;
@@ -178,6 +178,7 @@ img {
       padding: 1rem; }
   #section-1 .info-nature .cadre {
     padding: 1rem;
+    grid-area: img;
     padding-bottom: 0.8rem;
     background: #e8dfdf;
     margin-top: 1rem;
